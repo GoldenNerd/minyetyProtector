@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="masterKeyStyle.css" type="text/css" media="all" />
+ <title>RD Designer Main Template</title>
+</head>
+<body>
+  
+<h3 class="prompt">RD Designer Anti-Piracy</h3>
+
+<div id="instructions">
+<span>1. Define the PC Hardware Serial Number.</span>
+<span>2. Press "SERIALIZE PC" to pair the software to a PC.</span>
+<span>3. "Press UNLOCK SCRIPT" to run software on any PC.</span>
+</div>
+
+
+  <div id="visual-feedback">
+    <span id="txt-bullet-header" ></span>
+    <span id="txt-bullet-serial-num"></span>
+   <span id="txt-bullet-sync-directive"></span>
+  </div>
+    <input type="password" name="master-key" placeholder="Your HW ID here" id="master-key" value="" />
+  <div class="buttons">
+     <input type="button" name="serialize-btn" id="serialize-btn" value="SERIALIZE PC" />
+       <input type="button" name="unserialize-btn" id="unserialize-btn" value="UNLOCK SCRIPT" />
+
+  </div>
+      <input type="button" name="toggle-sync-btn" id="toggle-sync-btn" value="TOGGLE SYNCHRONIZATION" />
+      
+      <input type="button" name="whipe-localstorage-btn" id="whipe-localstorage-btn" value="WIPE LOCALSTORAGE" />
+  
+  
+  <script src="setScriptPassword.js" type="application/javascript" charset="utf-8"></script>
+
+ </body>
+ 
+ 
+ </html>
