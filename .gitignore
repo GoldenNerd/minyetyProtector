@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency folders (if you ever add tooling)
+node_modules/
+
+# Build output (future-proofing)
+dist/
+build/
+
+# Environment files
+.env
+
+# IDE / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system files
+.AppleDouble
+.LSOverride
